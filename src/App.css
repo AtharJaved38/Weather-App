@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family:'Franklin Gothic Medium';
+}
+
+.container{
+  width:max-content;
+  padding: 30px 30px;
+  border: 1px solid rgb(253, 252, 252);
+  border-radius: 10px;
+  margin-left: 35%;
+  margin-top: 20px;
+  background: linear-gradient(14deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+  color: azure;
+
+}
+
+.search-btn{
+  padding: 5px 10px ;
+  font-size: large;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.search-btn:hover{
+ cursor: pointer;
+ background-color: black;
+ color: yellow; 
+}
+
+.wthr-img img{
+  width: 150px;
+  height: 150px;
+}
+
+#loc{
+  border: none;
+  border-radius: 35px;
+  padding: 1.2rem 5rem 1.2rem 5rem;
+  outline: none;
+  font-size: 20px;
+}
+
+.data-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.element{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.element img{
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.weather-temp{
+  font-size: 70px;
+  font-family: cambria;
+}
+
+.weather-loc{
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.data{
+  padding-top: 10px;
+}
+
+.text{
+  font-size: 25px;
+  font-family: monospace;
+}
